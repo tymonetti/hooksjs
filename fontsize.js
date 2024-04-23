@@ -1,0 +1,1 @@
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
