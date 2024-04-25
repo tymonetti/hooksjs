@@ -1,4 +1,2 @@
-const maxNumber = arr => Math.max(...arr);
-const fullName = name || 'buddy';
-const currentDate = () => new Date().toLocaleDateString('en-US');
-[foo, bar] = [bar, foo];
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const results = await Promise.all(resultingPromises);
