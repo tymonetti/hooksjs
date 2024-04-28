@@ -1,5 +1,6 @@
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const buildOutputPath = path.join(repositoryRootPath, 'out');
 const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const result = await makeHttpRequest(url);
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
