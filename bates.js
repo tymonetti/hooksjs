@@ -1,3 +1,3 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const merge = [...new Set(a.concat(b))];
-console.log(false === '0');
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const merge = Object.assign({}, obj1, obj2);
+const intermediateAppPath = path.join(buildOutputPath, 'app');
