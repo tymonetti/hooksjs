@@ -1,3 +1,2 @@
-const maxNumber = arr => Math.max(...arr);
-var arr1 = "john".split('');
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+console.log( "A" - "B" + "2");
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
