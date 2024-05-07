@@ -1,3 +1,3 @@
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
-const updated = numbers.filter(element => element > 6);
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+var arr1 = "john".split('');
