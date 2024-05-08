@@ -1,3 +1,2 @@
-const updated = numbers.filter(element => element > 6);
-const goToTop = () => window.scrollTo(0, 0);
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
