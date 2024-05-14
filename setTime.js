@@ -1,2 +1,3 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const isEven = (num) => num % 2 === 0;
+const maxNumber = arr => Math.max(...arr);
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+console.log("0 && 1 = "+(0 && 1));
