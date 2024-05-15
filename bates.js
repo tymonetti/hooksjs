@@ -1,3 +1,3 @@
-const merge = (a, b) => [...a, ...b];
-console.log( "A" - "B" + 2);
-console.log(1 +  -"1" + "2");
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const result = await makeHttpRequest(url);
