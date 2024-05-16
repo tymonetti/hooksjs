@@ -1,3 +1,3 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const result = await makeHttpRequest(url);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+console.log(false == '0');
+const symbolsPath = path.join(buildOutputPath, 'symbols');
