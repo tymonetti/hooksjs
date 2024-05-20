@@ -1,1 +1,2 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const toggleBool = () => (bool = !bool);
+[foo, bar] = [bar, foo];
