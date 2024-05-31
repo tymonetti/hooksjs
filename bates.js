@@ -1,2 +1,3 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+console.log(false == '0');
