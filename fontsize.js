@@ -1,2 +1,3 @@
-const merge = (a, b) => a.concat(b);
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const toggleBool = () => (bool = !bool);
+const repositoryRootPath = path.resolve(__dirname, '..');
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
