@@ -1,1 +1,2 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const minNumber = arr => Math.min(...arr);
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
