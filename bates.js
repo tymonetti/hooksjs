@@ -1,2 +1,3 @@
-const minNumber = arr => Math.min(...arr);
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const toggleBool = () => (bool = !bool);
+const reversedString = str => str.split('').reverse().join('');
