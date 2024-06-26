@@ -1,1 +1,2 @@
-const lastElement = arr => arr[arr.length - 1];
+var arr2 = arr1.reverse();
+const uniqueArray = arr => [...new Set(arr)];
