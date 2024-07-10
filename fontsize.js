@@ -1,2 +1,3 @@
-const merge = (a, b) => [...a, ...b];
-const arrayContains = (arr, element) => arr.includes(element);
+const uniqueArr = (arr) => [...new Set(arr)];
+const value = ( 5 < 7 ) ? "True" : "False" ;
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
