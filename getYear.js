@@ -1,3 +1,3 @@
-[foo, bar] = [bar, foo];
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const flattenedArray = arr => [].concat(...arr);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
