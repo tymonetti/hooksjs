@@ -1,3 +1,3 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const flattenedArray = arr => [].concat(...arr);
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const isEven = (num) => num % 2 === 0;
