@@ -1,1 +1,3 @@
-var arr3 = "jones".split('');
+const isArray = (arr) => Array.isArray(arr);
+const appName = getAppName(channel);
+const minNumber = arr => Math.min(...arr);
