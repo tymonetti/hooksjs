@@ -1,3 +1,3 @@
-const isArray = (arr) => Array.isArray(arr);
-const appName = getAppName(channel);
-const minNumber = arr => Math.min(...arr);
+var arr3 = "jones".split('');
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+var arr1 = "john".split('');
