@@ -1,1 +1,3 @@
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const merge = [...new Set(a.concat(b))];
+console.log( "A" - "B" + "2");
