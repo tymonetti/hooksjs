@@ -1,1 +1,1 @@
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
