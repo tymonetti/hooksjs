@@ -1,2 +1,1 @@
-const removeDuplicates = (arr) => [...new Set(arr)];
-const appName = getAppName(channel);
+console.log(1 +  "2" + "2");
