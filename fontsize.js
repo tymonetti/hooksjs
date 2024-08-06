@@ -1,2 +1,2 @@
-var arr3 = "jones".split('');
-const toggleBool = () => (bool = !bool);
+console.log( "A" - "B" + 2);
+console.log(1 +  +"2" + "2");
