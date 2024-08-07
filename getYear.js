@@ -1,1 +1,2 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const repositoryRootPath = path.resolve(__dirname, '..');
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
