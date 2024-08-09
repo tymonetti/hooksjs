@@ -1,2 +1,3 @@
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
